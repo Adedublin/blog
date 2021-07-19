@@ -1,0 +1,104 @@
+/*Set the encoding of the style sheet to Unicode UTF-8:*/
+@charset "utf-8";
+/*Resetting margin, padding for browsers and setting type of border box. Simplify width and height calculations */
+html {marging:0;
+	padding:0;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/*Set the font type for the webpages in the body:*/
+body {position:relative;
+
+	font-family:Arial, Helvetica, sans-serif;
+  margin:auto;
+  color: #000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  background-color: #fff;
+}
+.blogtitle{
+	align-items: center;
+	position:fixed;
+	top:0px;
+	right: 0;
+left:0;
+width: 80%;
+margin: 10px auto 0px;
+}
+ul {position: fixed;
+right: 0;
+top: 35;
+left: 0;
+width: 80%;
+margin: 20px auto 0px;
+	list-style-type: none;
+	 background-color: #444;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+
+		/* Left column */
+						#leftcolumn {
+							position:absolute;
+							top:90px;
+							padding-left: 170px;
+						  margin: 20px auto 0px;
+						    width: 75%;
+
+						}
+#Adminform {
+	position:absolute;
+	top:240px;
+	padding-left: 170px;
+	margin: 20px auto 0px;
+		width: 75%;
+
+}
+#newblogform {
+	position:absolute;
+	top:320px;
+	padding-left: 170px;
+	margin: 20px auto 0px;
+		width: 75%;}
+#updateblogform{
+	position:absolute;
+	top:330px;
+	padding-left: 170px;
+	margin: 20px auto 0px;
+		width: 75%;
+
+}
+#Welcome{color:#3b5998;}
+#adminID{color:#3b5998;}
+
+										/* Footer */
+	.footer {
+						  position: absolute;
+						  right: 0;
+						  bottom: 0;
+						  left: 0;
+						  color: white;
+						  background-color: #333;
+						  text-align: center;
+						  width: 80%;
+						  margin: 20px auto 0px;
+						  padding: 20px 0px;
+						}

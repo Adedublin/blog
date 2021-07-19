@@ -1,0 +1,150 @@
+/*Set the encoding of the style sheet to Unicode UTF-8:*/
+@charset "utf-8";
+/*Resetting margin, padding for browsers and setting type of border box. Simplify width and height calculations */
+html {marging:0;
+	padding:0;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/*Set the font type for the webpages in the body:*/
+body {position:relative;
+
+	font-family:Arial, Helvetica, sans-serif;
+  margin:auto;
+  color: #000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  background-color: #fff;
+}
+.blogtitle{
+	align-items: center;
+	position:fixed;
+	top:0px;
+	right: 0;
+left:0;
+width: 80%;
+margin: 10px auto 0px;
+}
+ul {position: fixed;
+right: 0;
+top: 35;
+left: 0;
+width: 80%;
+margin: 20px auto 0px;
+	list-style-type: none;
+	 background-color: #444;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+#shopSearch{
+	position:absolute;
+	top:70px;
+	right: 100;
+	margin-left: 25px;
+	width:200px;
+}
+#ContactContainer{background-color: #ADD8E6;
+	position:absolute;
+	top:48px;
+	right: 0;
+	left: 0;
+width: 80%;
+height: 86%;
+margin: auto;
+
+padding-left: 1%;
+}
+
+
+#BlogsContainer {background-color: #ADD8E6;
+	position:absolute;
+	top:101px;
+	right: 0;
+	left: 0;
+width: 80%;
+height: 80%;
+margin: auto;
+ overflow-y: auto;
+padding-left: 1%;
+}
+#postContainer{
+	top:90px;
+	right: 0;
+	left: 0;
+width: 80%;
+height: 80%;
+margin: auto;
+}
+
+#itemContainer {
+margin: 30px;
+ }
+ #h2{color:#3b5998;
+ margin-bottom: 10px;}
+ #p{
+ margin:  0px;}
+ #caption{margin:  0px;
+ padding:  0px;}
+ #date{margin:  0px;
+padding: 0px;}
+#Blog_image {
+            width: 23%;
+            height: 28%;
+            padding: 10 10 1 10;}
+
+
+		/* Left column */
+						#leftcolumn {
+							position:absolute;
+							top:90px;
+							padding-left: 170px;
+						  margin: 20px auto 0px;
+						    width: 75%;
+
+						}
+#Adminform {
+	position:absolute;
+	top:240px;
+	padding-left: 170px;
+	margin: 20px auto 0px;
+		width: 75%;
+
+}
+#Welcome{color:#3b5998;}
+/* Underline a word */
+#profileLink{
+  text-decoration: underline;
+	margin:5px;
+}
+
+										/* Footer */
+	.footer {
+						  position: absolute;
+						  right: 0;
+						  bottom: 0;
+						  left: 0;
+						  color: white;
+						  background-color: #333;
+						  text-align: center;
+						  width: 80%;
+						  margin: 20px auto 0px;
+						  padding: 20px 0px;
+						}
